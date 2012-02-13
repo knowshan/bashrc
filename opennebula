@@ -1,0 +1,10 @@
+# OpenNebula 
+export ONE_LOCATION=$HOME/projects/opennebula/cloud/one
+export ONE_AUTH=$HOME/.one_auth
+export PATH=$HOME/projects/opennebula/cloud/one/bin:$PATH
+
+if [[ `hostname -s` == "opennebula" ]]; then
+  export ONE_XMLRPC=http://localhost:2633/RPC2
+else 
+  export ONE_XMLRPC=http://opennebula:2633/RPC2
+fi

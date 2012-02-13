@@ -1,0 +1,2 @@
+# Python SimpleHTTP web server pass $UID for port 
+alias pyweb="python -m SimpleHTTPServer"

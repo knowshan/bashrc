@@ -1,0 +1,6 @@
+# Ruby version manager (rvm)
+[[ -s "/home/pavgi/.rvm/scripts/rvm" ]] && source "/home/pavgi/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# rvm bash completion
+[[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
+
